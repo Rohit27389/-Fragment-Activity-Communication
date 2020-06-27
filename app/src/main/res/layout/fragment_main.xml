@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rohit.fragment_activity_communication.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/e_Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/Name"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/e_Id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="100dp"
+        android:hint="@string/Age"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="2"
+        android:maxLines="1"
+        android:lines="1"/>
+    <EditText
+        android:id="@+id/e_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Id"
+        android:layout_marginTop="150dp"
+        android:ems="10"
+        android:hint="@string/Address"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="15dp"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</FrameLayout>
