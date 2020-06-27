@@ -22,7 +22,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return this.name + "/n"+ this.email + "/n" +this.id ;
+        return this.name + "\n"+ this.email + "\n" +this.id+ "\n" ;
     }
 
     public void setName(String name) {
